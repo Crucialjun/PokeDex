@@ -73,6 +73,12 @@ dependencies {
         libs.squareup.retrofit)
 
 
+    //GSON
+    implementation (libs.gson)
+
+    implementation (libs.converter.gson)
+
+
     testImplementation(libs.junit)
 
 
