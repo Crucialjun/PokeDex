@@ -10,4 +10,6 @@ plugins {
     // STEP 2: Apply the KSP plugin
     id ("com.google.devtools.ksp") version "1.9.0-1.0.12"
 
+    id ("com.google.dagger.hilt.android") version "2.50" apply false
+
 }

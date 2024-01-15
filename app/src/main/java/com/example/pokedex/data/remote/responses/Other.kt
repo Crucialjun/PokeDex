@@ -1,8 +1,8 @@
 package com.example.pokedex.data.remote.responses
 
 data class Other(
-    val dream_world: DreamWorld,
+    val dreamworld: DreamWorld,
     val home: Home,
-    val official-artwork: OfficialArtwork,
+    val officialartwork: OfficialArtwork,
     val showdown: Showdown
 )
