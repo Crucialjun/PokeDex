@@ -83,6 +83,9 @@ dependencies {
     //pallette
     implementation(libs.androidx.palette)
 
+    //coil
+    implementation(libs.coil.compose)
+
 
 
 
