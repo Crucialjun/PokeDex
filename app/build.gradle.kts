@@ -65,6 +65,7 @@ dependencies {
 
     //dagger
     implementation(libs.hilt.android)
+    implementation(libs.androidx.hilt.navigation.compose)
 
     //timber
     implementation (libs.timber)
@@ -78,6 +79,14 @@ dependencies {
     implementation (libs.gson)
 
     implementation (libs.converter.gson)
+
+    //pallette
+    implementation(libs.androidx.palette)
+
+    //coil
+    implementation(libs.coil.compose)
+
+
 
 
     testImplementation(libs.junit)
