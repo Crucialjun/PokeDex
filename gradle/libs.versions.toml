@@ -5,7 +5,7 @@ converterGson = "2.9.0"
 daggerCompiler = "2.51.1"
 gson = "2.10.1"
 hiltNavigationCompose = "1.2.0"
-kotlin = "1.9.24"
+kotlin = "1.9.22"
 coreKtx = "1.13.1"
 junit = "4.13.2"
 junitVersion = "1.1.5"
@@ -17,6 +17,7 @@ navigationCompose = "2.7.7"
 palette = "1.0.0"
 squareupRetrofit = "2.9.0"
 timber = "5.0.1"
+paletteKtx = "1.0.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -45,6 +46,7 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
 squareup-retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "squareupRetrofit" }
 timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+androidx-palette-ktx = { group = "androidx.palette", name = "palette-ktx", version.ref = "paletteKtx" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
