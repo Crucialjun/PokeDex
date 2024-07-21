@@ -49,12 +49,9 @@ class MainActivity : ComponentActivity() {
                         //PokemonDetailView(navController = navController)
                     }
                 }
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+
+                    PokemonListScreen(navController =navController)
+
             }
         }
     }
